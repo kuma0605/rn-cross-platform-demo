@@ -8,10 +8,12 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "dev": "react-native bundle-harmony --dev"
+    "dev": "react-native bundle-harmony --dev",
+    "codegen": "react-native codegen-harmony --cpp-output-path ./harmony/entry/src/main/cpp/generated --rnoh-module-path ./harmony/entry/oh_modules/@rnoh/react-native-openharmony"
   },
   "dependencies": {
     "@react-native-oh/react-native-harmony": "^0.82.23",
+    "@react-native-ohos/react-native-safe-area-context": "^5.6.3",
     "@react-native/new-app-screen": "0.82.1",
     "react": "19.1.1",
     "react-native": "0.82.1",
@@ -24,6 +26,7 @@
     "@react-native-community/cli": "20.0.0",
     "@react-native-community/cli-platform-android": "20.0.0",
     "@react-native-community/cli-platform-ios": "20.0.0",
+    "@react-native-oh/react-native-harmony-cli": "^0.82.23",
     "@react-native/babel-preset": "0.82.1",
     "@react-native/eslint-config": "0.82.1",
     "@react-native/metro-config": "0.82.1",
