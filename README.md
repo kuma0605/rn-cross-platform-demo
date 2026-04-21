@@ -1,5 +1,36 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+---
+
+## 项目状态说明
+
+> **本项目目前处于暂停维护状态，保留备用。**
+
+### 技术栈版本
+
+| 依赖 | 版本 |
+|------|------|
+| React Native | 0.82.1 |
+| React | 19.1.1 |
+| RNOH (`@react-native-oh/react-native-harmony`) | 0.82.x |
+
+### 暂停原因
+
+RNOH 0.82 发布时间较短，**大部分第三方库尚未发布兼容 RN 0.82 的 Harmony 移植版本**，新增依赖集成成本较高。
+
+已集成的库：
+- `react-native-safe-area-context` → `@react-native-ohos/react-native-safe-area-context@5.6.3` ✅
+
+主力开发已切换到基于 **RN 0.77 + RNOH 0.77** 的新项目，整体第三方库兼容性更好。
+
+### 后续计划
+
+待 RNOH 0.82 生态成熟（第三方库跟进）后，将重新评估升级或迁移到本项目继续开发。
+
+**RNOH 第三方库兼容性参考：** https://gitee.com/react-native-oh-library/usage-docs
+
+---
+
 # Getting Started
 
 > **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
